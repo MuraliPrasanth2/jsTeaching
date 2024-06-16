@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>First website</title>
+    <style>
+      p {
+        color: green;
+        background-color: yellow;
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const para = document.getElementsByTagName("p");
+        para[0].addEventListener("click", function () {
+          alert("I am clicked");
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <h1>First website while teaching</h1>
+    <p>This is a paragraph</p>
+  </body>
+</html>
