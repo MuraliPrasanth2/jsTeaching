@@ -104,9 +104,17 @@ console.log(isTheDesertTasetGood);
 const someConstantVariable = "Some constant value";
 someConstantVariable = "some other value";
 
-console.log("added new line");
+// Task 7:
+// What are the 5 primitive data types in javascript
 
+// String
+// number
+// boolean
+// undefined
+// null
 
-
-
-
+// Task 8:
+// What are the three whays we can declare variables in javascript? eg., va
+// var
+// let
+// const
