@@ -104,3 +104,9 @@ console.log(isTheDesertTasetGood);
 const someConstantVariable = "Some constant value";
 someConstantVariable = "some other value";
 
+console.log("added new line");
+
+
+
+
+
