@@ -9,6 +9,8 @@
 // 		makes the number negative
 // 	++
 // 		postfix++
+// 		x++
+// 		x = x + 1
 // 		++prefix
 // 	--
 // 		postfix--
@@ -70,3 +72,26 @@ console.log("exponentResult ", exponentResult);
 let t = 40;
 t += 20; // t = t + 20;
 console.log("t ", t);
+
+// if(condition) {
+//  if true execute these statements
+// } else {
+//  if not true execute these statement
+// }
+
+let age = 18;
+
+if (age < 18) {
+	console.log("young");
+} else if (age == 18) {
+	console.log("you are 18");
+} else if (age > 18 && age <= 40) {
+	console.log("mature");
+} else {
+	console.log("old");
+}
+
+let didILikeTheDesert = false;
+if (didILikeTheDesert != true) {
+	console.log("I didn't like the desert");
+}
