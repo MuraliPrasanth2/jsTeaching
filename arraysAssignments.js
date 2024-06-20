@@ -37,7 +37,6 @@ for (let i = 1; i < array.length; i++) {
 console.log(max);
 
 // Array Reversal:
-
 // Initialize an empty array (reversed) to store the reversed elements.
 // Use a for loop starting from the last element (i = array.length - 1) to the first element (i >= 0).
 // Inside the loop, push each element of the original array (array[i]) into the reversed array.
@@ -69,8 +68,8 @@ for (let i = 0; i < array1.length; i++) {
 
 // After looping through all elements, count will hold the number of times target appears in the array.
 console.log(count);
-// Array Filtering:
 
+// Array Filtering:
 // Initialize an empty array (filtered) to store elements that meet the condition.
 // Use a for loop to iterate through each element of the array.
 // Inside the loop, check if the current element satisfies a specific condition (e.g., even numbers using array[i] % 2 === 0).
@@ -78,33 +77,32 @@ console.log(count);
 // After looping through all elements, filtered will contain only the elements that satisfy the condition.
 
 // Calculate Average:
-
 // Initialize variables sum and average.
 // Use a for loop to iterate through each element of the array.
 // Inside the loop, add each element to the sum variable.
 // After the loop, compute the average by dividing sum by the number of elements in the array.
-// Check Prime Numbers:
 
+// Check Prime Numbers:
 // Create a function to check if a number is prime (isPrime(num)).
 // Initialize a variable (isPrime) to true.
 // Use a nested loop to iterate through each element of the array.
 // Inside the inner loop, call the isPrime function to check if the current element is prime.
 // After looping through all elements, isPrime will indicate whether any prime numbers exist in the array.
-// Concatenate Arrays:
 
+// Concatenate Arrays:
 // Initialize an empty array (concatenated).
 // Use a for loop to iterate through each element of the first array.
 // Inside the loop, push each element of the first array into the concatenated array.
 // After looping through all elements of the first array, repeat the process for the second array.
-// Remove Duplicates:
 
+// Remove Duplicates:
 // Initialize an empty array (unique).
 // Use a for loop to iterate through each element of the original array.
 // Inside the loop, check if the current element is not already in the unique array.
 // If true, push the current element into the unique array.
 // After looping through all elements, unique will contain only unique elements from the original array.
-// Array Rotation:
 
+// Array Rotation:
 // Initialize variables n (number of positions to rotate) and rotated.
 // Use a for loop to iterate through each element of the original array.
 // Inside the loop, calculate the new index for each element using (i + n) % array.length.
