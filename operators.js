@@ -9,8 +9,6 @@
 // 		makes the number negative
 // 	++
 // 		postfix++
-// 		x++
-// 		x = x + 1
 // 		++prefix
 // 	--
 // 		postfix--
@@ -52,6 +50,27 @@
 // 	&&	and
 // 	||	or
 // 	!	not
+
+// if (condition1 || condition2)
+// condition1 = true, condition2 = false;
+// condition1 || condition2
+// ture
+// condition1 = false, condition2 = false;
+// condition1 || condition2
+// false
+// condition1 = true, condition2 = true;
+// condition1 || condition2
+// true
+
+// condition1 = true, condition2 = false;
+// !(condition1 || condition2)
+// false
+// condition1 = false, condition2 = false;
+// !(condition1 || condition2)
+// true
+// condition1 = true, condition2 = true;
+// !(condition1 || condition2)
+// fasle
 console.clear();
 let a = +"5";
 let b = -5;
@@ -82,16 +101,16 @@ console.log("t ", t);
 let age = 18;
 
 if (age < 18) {
-	console.log("young");
+  console.log("young");
 } else if (age == 18) {
-	console.log("you are 18");
+  console.log("you are 18");
 } else if (age > 18 && age <= 40) {
-	console.log("mature");
+  console.log("mature");
 } else {
-	console.log("old");
+  console.log("old");
 }
 
 let didILikeTheDesert = false;
 if (didILikeTheDesert != true) {
-	console.log("I didn't like the desert");
+  console.log("I didn't like the desert");
 }
