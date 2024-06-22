@@ -1,0 +1,64 @@
+console.clear();
+
+// finding max
+let array = [9, 7, 8, 44, 33, 22, 8];
+
+let max = array[0];
+for (let i = 0; i < array.length; i++) {
+    const currentElement = array[i];
+    if (max < currentElement) {
+        max = currentElement;
+    }
+}
+console.log("max :", max);
+
+// finding min
+let min = array[0];
+for (let i = 0; i < array.length; i++) {
+    // i = 7
+    // i < array.length
+    // 7 < 7
+    const currentElement = array[i];
+    // const currentElement = array[6];
+    // const currentElement = 8
+
+    if (min > currentElement) {
+        // min > currentElement
+        // 7 > 8
+        // false
+        min = currentElement;
+        // min = 7
+    }
+}
+console.log("min :", min);
+
+// Calculate Average:
+// Initialize variables sum and average.
+// Use a for loop to iterate through each element of the array.
+// Inside the loop, add each element to the sum variable.
+// After the loop, compute the average by dividing sum by the number of elements in the array.
+let sum = 0;
+for (let i = 0; i < array.length; i++) {
+    sum = sum + array[i];
+}
+const average = sum / array.length;
+console.log("average :", average);
+
+// print all the elements that are divisible by 3
+// let array = [9, 7, 8, 44, 33, 22, 8];
+for (let i = 0; i < array.length; i++) {
+    if (array[i] % 3 == 0) {
+        console.log(array[i]);
+    }
+}
+
+
+console.log(array[array.length - 1])
+// console.log(array[7 - 1])
+// console.log(array[6])
+console.log("traversing array in reverse order");
+for (let i = array.length - 1; i >= 0; i--) {
+    console.log(array[i]);
+    // console.log(array[6]);
+    // console.log(8);
+}
