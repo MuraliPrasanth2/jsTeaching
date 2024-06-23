@@ -2,7 +2,7 @@ console.clear();
 // sum of Array Elements:
 // Initialize a variable (sum) to 0.
 let sum = 0;
-let array = [1, 2, 3, 1, 3, 4, 2, 4, 3, 2];
+let array = [1, 2, 3, 1, 3, 4, 2, 4];
 // Use a for loop to iterate through each element of the array.
 for (let i = 0; i < array.length; i++) {
   // Inside the loop, add each element to the sum variable.
@@ -17,20 +17,20 @@ let max = array[0];
 // Use a for loop starting from the second element (i = 1) to compare each subsequent element with max.
 for (let i = 1; i < array.length; i++) {
   // If the current element is greater than max, update max to this element.
-  // i = 4
+  // i = 8
   // i < array.length
-  // 4 < 10
+  // 8 < 8
   let currentElement = array[i];
   // let currentElement = array[i];
-  // let currentElement = array[4];
-  // let currentElement = 5;
+  // let currentElement = array[7];
+  // let currentElement = 4;
   if (currentElement > max) {
     // currentElement > max
-    // 5 > 4
-    // true
+    // 4 > 4
+    // false
     max = currentElement;
     // max = currentElement;
-    // max = 5;
+    // max = 4;
   }
 }
 // After looping through all elements, max will contain the largest number in the array.
@@ -76,7 +76,7 @@ console.log(count);
 // If true, push the current element into the filtered array.
 // After looping through all elements, filtered will contain only the elements that satisfy the condition.
 
-// Calculate Average:
+// Calculate Average: - done in arrayAssignment2.js
 // Initialize variables sum and average.
 // Use a for loop to iterate through each element of the array.
 // Inside the loop, add each element to the sum variable.
